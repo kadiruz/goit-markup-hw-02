@@ -5,7 +5,7 @@ body {
 }
 
 .logo {
-    font-family: "Raleway";
+    font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -13,19 +13,19 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.st {
+.std {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.st:hover,
-.st:focus {
+.std:hover,
+.std:focus {
    color: #404bbf;
    color: #404bbf;
 }
-.sp {    /***span*/
+.spn {    /***span*/
     color: #2e2f42;    
 }
 .adres {
@@ -50,7 +50,7 @@ body {
 .first-section {
     background-color: #2e2f42;
 }
-.baslik-1 {
+.baslik-bir {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -78,14 +78,14 @@ body {
     
 }
 /****************section 2***************/
-.baslik-3 {
+.baslik-uc {
     font-weight:500;
     font-size:20px;
     line-height: 1.2;
     letter-spacing:0.02em;
     color: #2e2f42;
 }
-.p1 {
+.p-bir {
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.02em;
@@ -97,7 +97,7 @@ body {
 .third-section {
     background-color: #f4f4fd;
 }
-.baslik-2 {
+.baslik-iki {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -107,4 +107,9 @@ body {
 }
 .last {
     background-color:#2e2f42;
+}
+.p-iki {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
